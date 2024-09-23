@@ -1,0 +1,56 @@
+:root {
+    --subaru-blue: #0033a0;
+    --subaru-yellow: #ffd100;
+}
+
+
+.navbar {
+    background-color: var(--subaru-blue);
+}
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link.active {
+    border-bottom: 2px solid var(--subaru-yellow);
+}
+
+
+.logo {
+    max-width: 150px;
+    margin: 20px auto;
+}
+
+
+h1, h2 {
+    color: var(--subaru-blue);
+}
+
+
+.card {
+    border: 1px solid var(--subaru-blue);
+}
+
+.card-title {
+    color: var(--subaru-blue);
+}
+
+.card-text {
+    color: #333;
+}
+
+footer {
+    background-color: var(--subaru-blue);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: var(--subaru-yellow);
+}
+
+section p {
+    color: #333;
+}
